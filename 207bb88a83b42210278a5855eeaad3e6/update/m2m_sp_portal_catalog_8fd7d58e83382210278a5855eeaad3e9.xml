@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="Plumbing Catalog">a5bb49ce83f42210278a5855eeaad321</sc_catalog>
+        <sp_portal display_value="Plumbing Portal">f3b6d50e83382210278a5855eeaad300</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-10 15:08:58</sys_created_on>
+        <sys_id>8fd7d58e83382210278a5855eeaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plumbing Catalog.Plumbing Portal</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_8fd7d58e83382210278a5855eeaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-10 15:08:58</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>
