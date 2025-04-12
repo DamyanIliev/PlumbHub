@@ -21,40 +21,20 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Approved</label>
+            <label>Rejected</label>
             <language>en</language>
             <name>x_1662477_plumbhub_products</name>
-            <sequence/>
+            <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 16:05:54</sys_created_on>
+            <sys_created_on>2025-04-12 10:31:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fe7e6e9a83782210278a5855eeaad32b</sys_id>
+            <sys_id>cb9be22e83702210278a5855eeaad33d</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 16:05:59</sys_updated_on>
-            <value>approved</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Declined</label>
-            <language>en</language>
-            <name>x_1662477_plumbhub_products</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 16:06:45</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>00ae26da83782210278a5855eeaad3ce</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 16:07:02</sys_updated_on>
-            <value>declined</value>
+            <sys_updated_on>2025-04-12 11:01:20</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -64,17 +44,57 @@
             <label>In Progress</label>
             <language>en</language>
             <name>x_1662477_plumbhub_products</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 16:06:21</sys_created_on>
+            <sys_created_on>2025-04-12 10:31:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>198eee9a83782210278a5855eeaad39a</sys_id>
+            <sys_id>0f9be22e83702210278a5855eeaad343</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 16:06:32</sys_updated_on>
-            <value>in_progress</value>
+            <sys_updated_on>2025-04-12 11:01:20</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_1662477_plumbhub_products</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-12 10:31:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>079be22e83702210278a5855eeaad349</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-12 11:01:20</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_1662477_plumbhub_products</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a20cea2e83702210278a5855eeaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
+            <value>4</value>
         </sys_choice>
     </sys_choice>
 </record_update>

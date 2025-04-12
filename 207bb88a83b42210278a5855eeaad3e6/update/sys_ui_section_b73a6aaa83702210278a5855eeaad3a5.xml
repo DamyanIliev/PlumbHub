@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="7925f6d283b82210278a5855eeaad3a0" sys_domain="global" table="x_1662477_plumbhub_products" version="3" view="">
+    <sys_ui_section caption="" section_id="b73a6aaa83702210278a5855eeaad3a5" sys_domain="global" table="x_1662477_plumbhub_products" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>ba40afd6837c2210278a5855eeaad330</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>fa0cea2e83702210278a5855eeaad388</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>product_name</element>
+            <element>u_product_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8740afd6837c2210278a5855eeaad331</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>720cea2e83702210278a5855eeaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,27 @@
             <element>short_description</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8f40afd6837c2210278a5855eeaad331</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>f60cea2e83702210278a5855eeaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>submitted_from</element>
+            <element>u_price</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8740afd6837c2210278a5855eeaad332</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>7e0cea2e83702210278a5855eeaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8f40afd6837c2210278a5855eeaad332</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>f20cea2e83702210278a5855eeaad38a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,41 +74,41 @@
             <element>state</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8740afd6837c2210278a5855eeaad333</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>7a0cea2e83702210278a5855eeaad38a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price</element>
+            <element>description</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8f40afd6837c2210278a5855eeaad333</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>fe0cea2e83702210278a5855eeaad38a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_description</element>
+            <element>sys_created_by</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 19:43:22</sys_created_on>
-            <sys_id>8740afd6837c2210278a5855eeaad334</sys_id>
+            <sys_created_on>2025-04-12 10:33:33</sys_created_on>
+            <sys_id>760cea2e83702210278a5855eeaad38b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">7925f6d283b82210278a5855eeaad3a0</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_1662477_plumbhub_products" sys_domain="global" view="Default view">b73a6aaa83702210278a5855eeaad3a5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 19:43:22</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:33:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -119,19 +119,19 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-04-11 16:34:52</sys_created_on>
+            <sys_created_on>2025-04-12 10:25:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7925f6d283b82210278a5855eeaad3a0</sys_id>
+            <sys_id>b73a6aaa83702210278a5855eeaad3a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1662477_plumbhub_products</sys_name>
             <sys_overrides/>
             <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
             <sys_policy/>
             <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
-            <sys_update_name>sys_ui_section_7925f6d283b82210278a5855eeaad3a0</sys_update_name>
+            <sys_update_name>sys_ui_section_b73a6aaa83702210278a5855eeaad3a5</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-04-11 16:34:52</sys_updated_on>
+            <sys_updated_on>2025-04-12 10:25:42</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="product_name" table="x_1662477_plumbhub_products">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_product_name" table="x_1662477_plumbhub_products">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Product Name</column_label>
@@ -26,14 +21,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>product_name</element>
+        <element>u_product_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1662477_plumbhub_products</name>
         <next_element/>
@@ -51,15 +46,15 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-04-11 16:05:24</sys_created_on>
-        <sys_id>23acee9e83382210278a5855eeaad32e</sys_id>
+        <sys_created_on>2025-04-12 10:31:39</sys_created_on>
+        <sys_id>7a9ba22e83702210278a5855eeaad3ee</sys_id>
         <sys_name>Product Name</sys_name>
         <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
-        <sys_update_name>sys_dictionary_x_1662477_plumbhub_products_product_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1662477_plumbhub_products_u_product_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-11 16:05:24</sys_updated_on>
+        <sys_updated_on>2025-04-12 10:31:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
