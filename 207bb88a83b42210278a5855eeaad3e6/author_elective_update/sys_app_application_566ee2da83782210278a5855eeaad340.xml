@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Products</name>
+        <order>100</order>
+        <roles>x_1662477_plumbhub.design</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 16:05:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>566ee2da83782210278a5855eeaad340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>sys_app_application_566ee2da83782210278a5855eeaad340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 16:05:25</sys_updated_on>
+        <title>Products</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</application>
+        <file_path/>
+        <instance_id>ac5a932edb56bd144162684e13961919</instance_id>
+        <instance_name>dev207292</instance_name>
+        <name>sys_app_application_566ee2da83782210278a5855eeaad340</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Products</name><order>100</order><roles>x_1662477_plumbhub.design</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-11 16:05:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>566ee2da83782210278a5855eeaad340</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Products</sys_name><sys_overrides/><sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package><sys_policy/><sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope><sys_update_name>sys_app_application_566ee2da83782210278a5855eeaad340</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-11 16:05:25</sys_updated_on><title>Products</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>879665219</payload_hash>
+        <record_name>Products</record_name>
+        <reverted_from/>
+        <source>9b19619683342210278a5855eeaad35d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-11 16:05:25</sys_created_on>
+        <sys_id>5e6ee2da83782210278a5855eeaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19625994a950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-11 16:05:25</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>526ee2da69782210cef4df3281fc4743</update_guid>
+        <update_guid_history>526ee2da69782210cef4df3281fc4743:879665219</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Products">dfc9aa2683702210278a5855eeaad387</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-12 10:23:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>9a7fd42437824d43853b21a03d0b1459</sys_id>
+        <sys_metadata>566ee2da83782210278a5855eeaad340</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Products</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_scope_delete display_value="">484493a0ed434d3cb009eaea73d11f24</sys_scope_delete>
+        <sys_update_name>sys_app_application_566ee2da83782210278a5855eeaad340</sys_update_name>
+        <sys_update_version display_value="sys_app_application_566ee2da83782210278a5855eeaad340">5e6ee2da83782210278a5855eeaad343</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-12 10:23:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

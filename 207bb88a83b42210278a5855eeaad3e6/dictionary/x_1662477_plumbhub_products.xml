@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5de9aa2683702210278a5855eeaad38f" extends="task" label="Products" max_length="40" name="x_1662477_plumbhub_products" type="collection">
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Submitted by" max_length="32" name="u_submittedby" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Name" mandatory="true" max_length="40" name="u_product_name" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" mandatory="true" max_length="20" name="u_price" type="price"/>
+    </element>
+</database>

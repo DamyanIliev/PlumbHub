@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_developed" label="Developed" language="en" table="x_1662477_plumbhub_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_developed</element>
+            <help/>
+            <hint/>
+            <label>Developed</label>
+            <language>en</language>
+            <name>x_1662477_plumbhub_task</name>
+            <plural>Developed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-04-12 18:59:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Developed</sys_name>
+            <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+            <sys_update_name>sys_documentation_x_1662477_plumbhub_task_u_developed_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-04-12 18:59:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

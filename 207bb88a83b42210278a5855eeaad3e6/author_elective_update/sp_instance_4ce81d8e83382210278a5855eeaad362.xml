@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e5a8d58e83382210278a5855eeaad3b0</sp_column>
+        <sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-10 15:13:14</sys_created_on>
+        <sys_id>4ce81d8e83382210278a5855eeaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>sp_instance_4ce81d8e83382210278a5855eeaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-10 15:13:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4ce81d8e83382210278a5855eeaad362"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</application>
+        <file_path/>
+        <instance_id>ac5a932edb56bd144162684e13961919</instance_id>
+        <instance_name>dev207292</instance_name>
+        <name>sp_instance_4ce81d8e83382210278a5855eeaad362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">e5a8d58e83382210278a5855eeaad3b0</sp_column><sp_widget display_value="Catalog Content">f2384e2047101200ba13a5554ee490ce</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-10 15:13:14</sys_created_on><sys_id>4ce81d8e83382210278a5855eeaad362</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package><sys_policy/><sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope><sys_update_name>sp_instance_4ce81d8e83382210278a5855eeaad362</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-10 15:13:14</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4ce81d8e83382210278a5855eeaad362"/></record_update>]]></payload>
+        <payload_hash>1515292764</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a87bfcca83b42210278a5855eeaad381</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-10 15:13:14</sys_created_on>
+        <sys_id>c0e81d8e83382210278a5855eeaad365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196204328a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-10 15:13:14</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>c4e81d8e3938221075db9115f7131364</update_guid>
+        <update_guid_history>c4e81d8e3938221075db9115f7131364:1515292764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ea199dce83382210278a5855eeaad361</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-10 15:14:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>63c11597d8644acab9c07bccc214a6c4</sys_id>
+        <sys_metadata>4ce81d8e83382210278a5855eeaad362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_scope_delete display_value="">484493a0ed434d3cb009eaea73d11f24</sys_scope_delete>
+        <sys_update_name>sp_instance_4ce81d8e83382210278a5855eeaad362</sys_update_name>
+        <sys_update_version display_value="sp_instance_4ce81d8e83382210278a5855eeaad362">c0e81d8e83382210278a5855eeaad365</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-10 15:14:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

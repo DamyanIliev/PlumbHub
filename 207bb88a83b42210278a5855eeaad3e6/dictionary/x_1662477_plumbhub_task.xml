@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b7233a5283b82210278a5855eeaad323" extends="task" label="Task" max_length="40" name="x_1662477_plumbhub_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Internal Testing" max_length="40" name="u_internal_testing" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Passed" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Failed" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="In Progress" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element label="Developed" max_length="40" name="u_developed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="External Testing" max_length="40" name="u_external_testing" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Faild" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="In Progres" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Passed" sequence="1" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>
