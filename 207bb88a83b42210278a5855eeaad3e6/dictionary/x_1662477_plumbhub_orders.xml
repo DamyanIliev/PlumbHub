@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2867eb3683302210278a5855eeaad3b6" label="Orders" max_length="40" name="x_1662477_plumbhub_orders" type="collection">
+        <element label="Quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Shipping Address" max_length="40" name="u_shipping_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requester Email" max_length="40" name="u_requester_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requester Name" max_length="40" name="u_requester_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product" max_length="40" name="u_product" type="string"/>
+    </element>
+</database>
