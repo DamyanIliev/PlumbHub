@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>order_flow</internal_name>
-        <label_cache>[{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"bf4a67b8-0c2f-4548-883a-060d5eaa4cea":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_name","label":"1 - Get Catalog Variables➛requester_name","reference":"sys_user","reference_display":"","type":"reference","base_type":"reference","column_name":"","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_requester_name"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_email","label":"1 - Get Catalog Variables➛requester_email","reference":"sys_user","reference_display":"","type":"reference","base_type":"reference","column_name":"","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_requester_email"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.address","label":"1 - Get Catalog Variables➛address","reference":"","reference_display":"","type":"multi_small","base_type":"multi_small","column_name":"","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_shipping_address"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product","label":"1 - Get Catalog Variables➛select_product","reference":"x_1662477_plumbhub_products","reference_display":"","type":"reference","base_type":"reference","column_name":"","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_product"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product.u_product_name","label":"1 - Get Catalog Variables➛select_product➛Product Name","reference":"","reference_display":"Product Name","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_products","column_name":"u_product_name","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_product"]}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product.number","label":"1 - Get Catalog Variables➛select_product➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_products","column_name":"number","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_product"]}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.quantity","label":"1 - Get Catalog Variables➛quantity","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","choices":[{"label":"1","value":"1","order":100.0},{"label":"2","value":"2","order":100.0},{"label":"3","value":"3","order":100.0},{"label":"4","value":"4","order":100.0}],"usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_quantity"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
+        <label_cache>[{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_name.name","label":"1 - Get Catalog Variables➛requester_name➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{"ba306a22-af5f-4750-8662-eedd9e4c0807":[null]}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_email.email","label":"1 - Get Catalog Variables➛requester_email➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"bf4a67b8-0c2f-4548-883a-060d5eaa4cea":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_name","label":"1 - Get Catalog Variables➛requester_name","reference":"sys_user","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_requester_name"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_email","label":"1 - Get Catalog Variables➛requester_email","reference":"sys_user","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_requester_email"],"ba306a22-af5f-4750-8662-eedd9e4c0807":["ah_to"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.address","label":"1 - Get Catalog Variables➛address","reference":"","reference_display":"address","type":"multi_small","base_type":"multi_small","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_shipping_address"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product","label":"1 - Get Catalog Variables➛select_product","reference":"x_1662477_plumbhub_products","reference_display":"select_product","type":"reference","base_type":"reference","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_product"]},"attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product.u_product_name","label":"1 - Get Catalog Variables➛select_product➛Product Name","reference":"","reference_display":"Product Name","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_products","column_name":"u_product_name","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_product"],"ba306a22-af5f-4750-8662-eedd9e4c0807":["ah_subject"]}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product.number","label":"1 - Get Catalog Variables➛select_product➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_products","column_name":"number","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_product"]}},{"name":"bf4a67b8-0c2f-4548-883a-060d5eaa4cea.quantity","label":"1 - Get Catalog Variables➛quantity","reference":"","reference_display":"quantity","type":"string","base_type":"string","usedInstances":{"88111220-a39e-45fc-8f24-bc12550fb7ab":["u_quantity"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Order Flow</name>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>72ab6f7a83302210278a5855eeaad3a5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Order Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_update_name>sys_hub_flow_72ab6f7a83302210278a5855eeaad3a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 10:15:24</sys_updated_on>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=72ab6f7a83302210278a5855eeaad3a5"/>
@@ -60,10 +60,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 10:11:18</sys_created_on>
         <sys_id>2e803ffe83302210278a5855eeaad3ec</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 10:15:24</sys_updated_on>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -232,14 +232,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 10:11:18</sys_created_on>
         <sys_id>26803ffe83302210278a5855eeaad3e5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 10:15:24</sys_updated_on>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -255,7 +255,85 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=26803ffe83302210278a5855eeaad3e5"/>
     <sys_hub_flow_output action="delete_multiple" query="model=72ab6f7a83302210278a5855eeaad3a5"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=72ab6f7a83302210278a5855eeaad3a5"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=72ab6f7a83302210278a5855eeaad3a5^sys_idNOT INa271ff3283702210278a5855eeaad346,a2803ffe83302210278a5855eeaad3f3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=72ab6f7a83302210278a5855eeaad3a5^sys_idNOT IN83a4810783f42210278a5855eeaad380,a271ff3283702210278a5855eeaad346,a2803ffe83302210278a5855eeaad3f3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Order Flow">72ab6f7a83302210278a5855eeaad3a5</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:18:53</sys_created_on>
+        <sys_id>83a4810783f42210278a5855eeaad380</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
+        <ui_id>ba306a22-af5f-4750-8662-eedd9e4c0807</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=83a4810783f42210278a5855eeaad380"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>83a4810783f42210278a5855eeaad380</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:18:53</sys_created_on>
+        <sys_id>83a4810783f42210278a5855eeaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 16:18:53</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=83a4810783f42210278a5855eeaad380"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>83a4810783f42210278a5855eeaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:18:53</sys_created_on>
+        <sys_id>4fa4810783f42210278a5855eeaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 16:18:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:19692a1c-606b-47ca-b5f4-9816270182fd}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:19692a1c-606b-47ca-b5f4-9816270182fd}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Get Catalog Variables &amp;gt; requester_name &amp;gt; Name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_19692a1c-606b-47ca-b5f4-9816270182fd" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;We have received Your order It will be deliver Soon!&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>83a4810783f42210278a5855eeaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:18:53</sys_created_on>
+        <sys_id>03a4810783f42210278a5855eeaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 16:18:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>You hev ordered {{bf4a67b8-0c2f-4548-883a-060d5eaa4cea.select_product.u_product_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>83a4810783f42210278a5855eeaad380</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:18:53</sys_created_on>
+        <sys_id>87a4810783f42210278a5855eeaad382</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=83a4810783f42210278a5855eeaad380"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=83a4810783f42210278a5855eeaad380"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -273,10 +351,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 10:15:24</sys_created_on>
         <sys_id>a271ff3283702210278a5855eeaad346</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 10:15:24</sys_updated_on>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
         <ui_id>88111220-a39e-45fc-8f24-bc12550fb7ab</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a271ff3283702210278a5855eeaad346"/>
@@ -338,10 +416,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 10:11:18</sys_created_on>
         <sys_id>a2803ffe83302210278a5855eeaad3f3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 10:15:24</sys_updated_on>
+        <sys_updated_on>2025-04-13 18:59:01</sys_updated_on>
         <ui_id>bf4a67b8-0c2f-4548-883a-060d5eaa4cea</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a2803ffe83302210278a5855eeaad3f3"/>
@@ -414,7 +492,24 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a2803ffe83302210278a5855eeaad3f3"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=72ab6f7a83302210278a5855eeaad3a5"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=72ab6f7a83302210278a5855eeaad3a5"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=72ab6f7a83302210278a5855eeaad3a5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=72ab6f7a83302210278a5855eeaad3a5^sys_idNOT INc7a4810783f42210278a5855eeaad385"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>72ab6f7a83302210278a5855eeaad3a5</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{bf4a67b8-0c2f-4548-883a-060d5eaa4cea.requester_name.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 16:18:53</sys_created_on>
+        <sys_id>c7a4810783f42210278a5855eeaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 16:18:53</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>19692a1c-606b-47ca-b5f4-9816270182fd</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=72ab6f7a83302210278a5855eeaad3a5"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_72ab6f7a83302210278a5855eeaad3a5^sys_idNOT IN26803ffe83302210278a5855eeaad3e4,6a803ffe83302210278a5855eeaad3e9"/>
     <sys_documentation action="INSERT_OR_UPDATE">

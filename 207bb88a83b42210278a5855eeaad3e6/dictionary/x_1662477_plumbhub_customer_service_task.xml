@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a42f290b83b82210278a5855eeaad3ea" extends="task" label="Customer service Task" max_length="40" name="x_1662477_plumbhub_customer_service_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_category" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Administrative" sequence="1" value="administrative"/>
+                <element inactive_on_update="false" label="Support" sequence="3" value="support"/>
+                <element inactive_on_update="false" label="Logistics" sequence="2" value="logistics"/>
+                <element inactive_on_update="false" label="Onsite" sequence="4" value="onsite"/>
+                <element inactive_on_update="false" label="Technical" sequence="0" value="technical"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="u_string_2" type="string"/>
+    </element>
+</database>

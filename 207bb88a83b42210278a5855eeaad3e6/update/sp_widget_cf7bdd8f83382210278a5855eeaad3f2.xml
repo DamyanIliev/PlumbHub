@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.faq-widget {
+  padding: 25px;
+  margin: 30px auto;
+  max-width: 800px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #003366;
+}
+
+.faq-widget h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #007799;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #005577;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  margin: 0;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>plumbhub_faq</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>PlumbHub FAQ</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 17:58:33</sys_created_on>
+        <sys_id>cf7bdd8f83382210278a5855eeaad3f2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PlumbHub FAQ</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>sp_widget_cf7bdd8f83382210278a5855eeaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 18:01:05</sys_updated_on>
+        <template><![CDATA[<div class="faq-widget">
+  <h2>]]>🧠<![CDATA[ FAQs & Troubleshooting Tips</h2>
+  <div class="faq-item">
+    <h3>]]>💧<![CDATA[ How do I shut off my main water valve?</h3>
+    <p>Locate the valve near your water meter and turn it clockwise until it stops.</p>
+  </div>
+  <div class="faq-item">
+    <h3>]]>🚿<![CDATA[ Why is my water pressure low?</h3>
+    <p>It could be mineral build-up or a leak. Try cleaning aerators or contact support.</p>
+  </div>
+  <div class="faq-item">
+    <h3>]]>🔥<![CDATA[ No hot water in my home — what should I do?</h3>
+    <p>Check your water heater’s pilot light or circuit breaker first.</p>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>
