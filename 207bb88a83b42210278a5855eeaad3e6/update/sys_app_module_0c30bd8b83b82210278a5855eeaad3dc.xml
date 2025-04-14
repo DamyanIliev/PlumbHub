@@ -20,14 +20,14 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_1662477_plumbhub.customer_service</roles>
+        <roles>x_1662477_plumbhub.customer_service,x_1662477_plumbhub.development,x_1662477_plumbhub.design</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 19:29:00</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c30bd8b83b82210278a5855eeaad3dc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Customer service Tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_update_name>sys_app_module_0c30bd8b83b82210278a5855eeaad3dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-14 11:56:39</sys_updated_on>
+        <sys_updated_on>2025-04-14 20:41:37</sys_updated_on>
         <timeline_page/>
         <title>Customer service Tasks</title>
         <uncancelable>false</uncancelable>
