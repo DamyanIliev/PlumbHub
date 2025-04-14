@@ -13,7 +13,7 @@
         <mobile_title>Orders</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1662477_plumbhub_orders</name>
-        <order>2</order>
+        <order>1</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,17 +25,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e787ef3683302210278a5855eeaad316</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Orders</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
         <sys_policy/>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_update_name>sys_app_module_e787ef3683302210278a5855eeaad316</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 19:17:25</sys_updated_on>
+        <sys_updated_on>2025-04-14 11:55:34</sys_updated_on>
         <timeline_page/>
-        <title>Orders</title>
+        <title>Order</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

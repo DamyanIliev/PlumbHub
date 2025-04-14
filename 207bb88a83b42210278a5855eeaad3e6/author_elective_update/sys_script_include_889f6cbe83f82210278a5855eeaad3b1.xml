@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1662477_plumbhub.PlumbHub_ClientCollable</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>PlumbHub_ClientCollable</name>
+        <script><![CDATA[var PlumbHub_ClientCollable = Class.create();
+PlumbHub_ClientCollable.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getPrice:function(){
+		var priceFieldID =	this.getParameter('sysparm_price');
+		var gr = new GlideRecord('x_1662477_plumbhub_products');
+		gr.addQuery('sys_id', priceFieldID);
+		if(gr.next()){
+			gr.u_price;
+		}
+	},
+
+    type: 'PlumbHub_ClientCollable'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-12 21:18:55</sys_created_on>
+        <sys_id>889f6cbe83f82210278a5855eeaad3b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PlumbHub_ClientCollable</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>sys_script_include_889f6cbe83f82210278a5855eeaad3b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-12 21:21:40</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</application>
+        <file_path/>
+        <instance_id>ac5a932edb56bd144162684e13961919</instance_id>
+        <instance_name>dev207292</instance_name>
+        <name>sys_script_include_889f6cbe83f82210278a5855eeaad3b1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1662477_plumbhub.PlumbHub_ClientCollable&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;PlumbHub_ClientCollable&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var PlumbHub_ClientCollable = Class.create();
+PlumbHub_ClientCollable.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getPrice:function(){
+		var priceFieldID =	this.getParameter('sysparm_price');
+		var gr = new GlideRecord('x_1662477_plumbhub_products');
+		gr.addQuery('sys_id', priceFieldID);
+		if(gr.next()){
+			gr.u_price;
+		}
+	},
+
+    type: 'PlumbHub_ClientCollable'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-12 21:18:55&lt;/sys_created_on&gt;&lt;sys_id&gt;889f6cbe83f82210278a5855eeaad3b1&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;PlumbHub_ClientCollable&lt;/sys_name&gt;&lt;sys_package display_value="PlumbHub" source="x_1662477_plumbhub"&gt;207bb88a83b42210278a5855eeaad3e6&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="PlumbHub"&gt;207bb88a83b42210278a5855eeaad3e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_889f6cbe83f82210278a5855eeaad3b1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-12 21:21:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1168782921</payload_hash>
+        <record_name>PlumbHub_ClientCollable</record_name>
+        <reverted_from/>
+        <source>640920ba83f82210278a5855eeaad31e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-12 21:21:40</sys_created_on>
+        <sys_id>386041f6837c2210278a5855eeaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1962be131cc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-12 21:21:40</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7c6041f6067c2210b35dd10bedbdf460</update_guid>
+        <update_guid_history>7c6041f6067c2210b35dd10bedbdf460:-1168782921,a0cf70f6277c22107334c56bd6b14b5c:783802124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 11:57:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>6dbdfdee20fc4338b07be1673f211119</sys_id>
+        <sys_metadata>889f6cbe83f82210278a5855eeaad3b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PlumbHub_ClientCollable</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_scope_delete display_value="">484493a0ed434d3cb009eaea73d11f24</sys_scope_delete>
+        <sys_update_name>sys_script_include_889f6cbe83f82210278a5855eeaad3b1</sys_update_name>
+        <sys_update_version display_value="sys_script_include_889f6cbe83f82210278a5855eeaad3b1">386041f6837c2210278a5855eeaad361</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 11:57:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>customer_service_flow</internal_name>
-        <label_cache>[{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_email"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_name"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"a13818bc-7b5c-4908-a4da-58968b786c0f":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.type","label":"1 - Get Catalog Variables➛type","reference":"x_1662477_plumbhub_customer_service","reference_display":"type","type":"choice","base_type":"choice","choices":[{"label":"Domus","value":"domus","order":100.0},{"label":"Industrials","value":"industrials","order":100.0}],"usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_type"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.category","label":"1 - Get Catalog Variables➛category","reference":"x_1662477_plumbhub_customer_service","reference_display":"","type":"choice","base_type":"choice","column_name":"","choices":[{"label":"Technical","value":"technical","order":100.0},{"label":"Administrative","value":"administrative","order":100.0},{"label":"Logistics","value":"logistics","order":100.0},{"label":"Support","value":"support","order":100.0},{"label":"Onsite","value":"onsite","order":100.0}],"usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_string_2"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"412d8dcb-7b3a-4a95-b3e1-7acc7d992328":["condition"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"254b2e4e-a278-467f-a535-37664864bd4e":["condition"],"7d3ef250-b124-4479-9d33-8960233dc7c6":["condition"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"8f8c7293-e13f-4092-8d0a-9e88b857fd8b":["condition"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.description","label":"1 - Get Catalog Variables➛description","reference":"","reference_display":"description","type":"multi_small","base_type":"multi_small","usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["description"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}}]</label_cache>
+        <label_cache>[{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.description","label":"1 - Get Catalog Variables➛description","reference":"","reference_display":"description","type":"multi_small","base_type":"multi_small","usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["description"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"],"4be529da-4981-4ed7-864a-57b9a390ecef":["description"],"a1453069-9a1e-4414-b2c8-8b6546bcabc3":["field_values"],"097febd6-e63a-4cc5-8dc9-61066051f28c":["field_values"],"216b41dc-7c88-4869-b704-6822306093c0":["field_values"],"dd776c6c-1cce-415d-a3e2-e71bae5eaa9d":["field_values"],"4523b593-5880-4092-8348-792b9532e791":["field_values"]},"attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.category","label":"1 - Get Catalog Variables➛category","reference":"x_1662477_plumbhub_customer_service","reference_display":"category","type":"choice","base_type":"choice","choices":[{"label":"Technical","value":"technical","order":100.0},{"label":"Administrative","value":"administrative","order":100.0},{"label":"Logistics","value":"logistics","order":100.0},{"label":"Support","value":"support","order":100.0},{"label":"Onsite","value":"onsite","order":100.0}],"usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_string_2"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"412d8dcb-7b3a-4a95-b3e1-7acc7d992328":["condition"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"254b2e4e-a278-467f-a535-37664864bd4e":["condition"],"7d3ef250-b124-4479-9d33-8960233dc7c6":["condition"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"8f8c7293-e13f-4092-8d0a-9e88b857fd8b":["condition"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"],"4be529da-4981-4ed7-864a-57b9a390ecef":["u_string_2"],"a1453069-9a1e-4414-b2c8-8b6546bcabc3":["field_values"],"097febd6-e63a-4cc5-8dc9-61066051f28c":["field_values"],"216b41dc-7c88-4869-b704-6822306093c0":["field_values"],"dd776c6c-1cce-415d-a3e2-e71bae5eaa9d":["field_values"],"4523b593-5880-4092-8348-792b9532e791":["field_values"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.type","label":"1 - Get Catalog Variables➛type","reference":"x_1662477_plumbhub_customer_service","reference_display":"type","type":"choice","base_type":"choice","choices":[{"label":"Domus","value":"domus","order":100.0},{"label":"Industrials","value":"industrials","order":100.0}],"usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_type"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"],"4be529da-4981-4ed7-864a-57b9a390ecef":["u_type"],"a1453069-9a1e-4414-b2c8-8b6546bcabc3":["field_values"],"097febd6-e63a-4cc5-8dc9-61066051f28c":["field_values"],"216b41dc-7c88-4869-b704-6822306093c0":["field_values"],"dd776c6c-1cce-415d-a3e2-e71bae5eaa9d":["field_values"],"4523b593-5880-4092-8348-792b9532e791":["field_values"]},"attributes":{"catalogType":"5","catalogTypeLabel":"Select Box"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","usedInstances":{"a13818bc-7b5c-4908-a4da-58968b786c0f":["requested_item"]},"attributes":{"default_search_field":"number"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.name","label":"1 - Get Catalog Variables➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_name"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"],"867c84e7-ea0f-4187-ac4a-b6861a8d5368":[null]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"a13818bc-7b5c-4908-a4da-58968b786c0f.email","label":"1 - Get Catalog Variables➛email","reference":"","reference_display":"email","type":"string","base_type":"string","usedInstances":{"c2c4530d-acee-4840-aac6-c3029f18b329":["u_email"],"d8474aa5-f7c9-4e08-b4f8-11e361875f69":["values"],"66417cef-57d3-42d4-b174-034b6076708e":["values"],"36122201-1406-413f-b4b8-2b899c689970":["values"],"a12b4258-4734-49a9-a952-baa3a10fb84f":["values"],"867c84e7-ea0f-4187-ac4a-b6861a8d5368":["ah_to"],"a639d81c-000c-43ae-8a52-32a123b2a80f":["ah_to"],"134d8da3-636a-4c79-a1c2-c780eaf2435d":["ah_to"],"2a81e5b1-9b83-4354-8962-77a378936b2c":["ah_to"],"7861dd59-33bf-440c-9a39-ab275a01a141":["ah_to"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"c2c4530d-acee-4840-aac6-c3029f18b329.record.u_solution","label":"3 - Create Record➛Customer service Task Record➛Solution","reference":"","reference_display":"Solution","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_customer_service_task","column_name":"u_solution","usedInstances":{"867c84e7-ea0f-4187-ac4a-b6861a8d5368":[null]}},{"name":"66417cef-57d3-42d4-b174-034b6076708e.record.u_solution","label":"6 - Create Record➛Customer service Task Record➛Solution","reference":"","reference_display":"Solution","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_customer_service_task","column_name":"u_solution","usedInstances":{"a639d81c-000c-43ae-8a52-32a123b2a80f":[null]}},{"name":"d8474aa5-f7c9-4e08-b4f8-11e361875f69.record.u_solution","label":"9 - Create Record➛Customer service Task Record➛Solution","reference":"","reference_display":"Solution","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_customer_service_task","column_name":"u_solution","usedInstances":{"134d8da3-636a-4c79-a1c2-c780eaf2435d":[null]}},{"name":"36122201-1406-413f-b4b8-2b899c689970.record.u_solution","label":"14 - Create Record➛Customer service Task Record➛Solution","reference":"","reference_display":"Solution","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_customer_service_task","column_name":"u_solution","usedInstances":{"134d8da3-636a-4c79-a1c2-c780eaf2435d":[null]}},{"name":"a12b4258-4734-49a9-a952-baa3a10fb84f.record.u_solution","label":"19 - Create Record➛Customer service Task Record➛Solution","reference":"","reference_display":"Solution","type":"string","base_type":"string","parent_table_name":"x_1662477_plumbhub_customer_service_task","column_name":"u_solution","usedInstances":{"7861dd59-33bf-440c-9a39-ab275a01a141":[null]}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Customer Service Flow </name>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52e6ad0b83782210278a5855eeaad32b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Customer Service Flow </sys_name>
         <sys_overrides/>
         <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
@@ -45,7 +45,7 @@
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_update_name>sys_hub_flow_52e6ad0b83782210278a5855eeaad32b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:17</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:10:00</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=52e6ad0b83782210278a5855eeaad32b"/>
@@ -60,10 +60,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 18:54:13</sys_created_on>
         <sys_id>1e38650383b82210278a5855eeaad3cd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -232,14 +232,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 18:54:13</sys_created_on>
         <sys_id>5638650383b82210278a5855eeaad3c6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:15</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -255,7 +255,261 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5638650383b82210278a5855eeaad3c6"/>
     <sys_hub_flow_output action="delete_multiple" query="model=52e6ad0b83782210278a5855eeaad32b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=52e6ad0b83782210278a5855eeaad32b"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=52e6ad0b83782210278a5855eeaad32b^sys_idNOT IN2238650383b82210278a5855eeaad3d4,3315ee4b83bc2210278a5855eeaad39e,3715ee4b83bc2210278a5855eeaad38c,3b40eac383bc2210278a5855eeaad396,b315ee4b83bc2210278a5855eeaad395,eb15ee4b83bc2210278a5855eeaad376"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=52e6ad0b83782210278a5855eeaad32b^sys_idNOT IN07fe205f83302210278a5855eeaad3b5,105ba81b83302210278a5855eeaad36f,185ba81b83302210278a5855eeaad360,2238650383b82210278a5855eeaad3d4,3315ee4b83bc2210278a5855eeaad39e,3715ee4b83bc2210278a5855eeaad38c,3b40eac383bc2210278a5855eeaad396,3cd9f85b83702210278a5855eeaad3fa,405ba81b83302210278a5855eeaad337,485ba81b83302210278a5855eeaad345,49d93c5b83702210278a5855eeaad30a,8ffe205f83302210278a5855eeaad39f,8ffe205f83302210278a5855eeaad3c3,b315ee4b83bc2210278a5855eeaad395,bb4ba81b83302210278a5855eeaad31a,bcd9f85b83702210278a5855eeaad3e9,eb15ee4b83bc2210278a5855eeaad376"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>16</order>
+        <parent_ui_id>7d3ef250-b124-4479-9d33-8960233dc7c6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>07fe205f83302210278a5855eeaad3b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>4be529da-4981-4ed7-864a-57b9a390ecef</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=07fe205f83302210278a5855eeaad3b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>07fe205f83302210278a5855eeaad3b5</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>8bfe205f83302210278a5855eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <value>x_1662477_plumbhub_customer_service_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=07fe205f83302210278a5855eeaad3b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>07fe205f83302210278a5855eeaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>0bfe205f83302210278a5855eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_type={{a13818bc-7b5c-4908-a4da-58968b786c0f.type}}^u_string_2={{a13818bc-7b5c-4908-a4da-58968b786c0f.category}}^description={{a13818bc-7b5c-4908-a4da-58968b786c0f.description}}^short_description=Analyzed and evaluated for product improvement.^assignment_group={"display":"Design Department Group","value":"26db7d5e83742210278a5855eeaad317","sys_id":"26db7d5e83742210278a5855eeaad317"}^assigned_to={"display":"Tom  Ford","value":"9f8939da83742210278a5855eeaad362","table":"sys_user","sys_id":"9f8939da83742210278a5855eeaad362"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>07fe205f83302210278a5855eeaad3b5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>47fe205f83302210278a5855eeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=07fe205f83302210278a5855eeaad3b5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=07fe205f83302210278a5855eeaad3b5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>20</order>
+        <parent_ui_id>8f8c7293-e13f-4092-8d0a-9e88b857fd8b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>105ba81b83302210278a5855eeaad36f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>7861dd59-33bf-440c-9a39-ab275a01a141</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=105ba81b83302210278a5855eeaad36f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>105ba81b83302210278a5855eeaad36f</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>945ba81b83302210278a5855eeaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <value>Solution</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>105ba81b83302210278a5855eeaad36f</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>d05ba81b83302210278a5855eeaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=105ba81b83302210278a5855eeaad36f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>105ba81b83302210278a5855eeaad36f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>9c5ba81b83302210278a5855eeaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:85327729-adbc-4a31-b299-5fabaab5dbf0}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:85327729-adbc-4a31-b299-5fabaab5dbf0}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_85327729-adbc-4a31-b299-5fabaab5dbf0" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:06576354-1ae6-4bc9-8c0b-1197b17237ff}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:06576354-1ae6-4bc9-8c0b-1197b17237ff}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="15 - Create Record &amp;gt; Customer service Task Record &amp;gt; Solution"&gt;&lt;span class="pill-start"&gt;15 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Solution&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_06576354-1ae6-4bc9-8c0b-1197b17237ff" class="transform_function_facade no_transform_applied"&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>105ba81b83302210278a5855eeaad36f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>505ba81b83302210278a5855eeaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>105ba81b83302210278a5855eeaad36f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>d85ba81b83302210278a5855eeaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a13818bc-7b5c-4908-a4da-58968b786c0f.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=105ba81b83302210278a5855eeaad36f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=105ba81b83302210278a5855eeaad36f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>15</order>
+        <parent_ui_id>7d3ef250-b124-4479-9d33-8960233dc7c6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>185ba81b83302210278a5855eeaad360</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>134d8da3-636a-4c79-a1c2-c780eaf2435d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=185ba81b83302210278a5855eeaad360"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>185ba81b83302210278a5855eeaad360</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>9c5ba81b83302210278a5855eeaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <value>Solution</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>185ba81b83302210278a5855eeaad360</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>d85ba81b83302210278a5855eeaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=185ba81b83302210278a5855eeaad360"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>185ba81b83302210278a5855eeaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>945ba81b83302210278a5855eeaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:1e637f8a-fed0-44f2-aa3c-fd7ab993b058}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1e637f8a-fed0-44f2-aa3c-fd7ab993b058}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1e637f8a-fed0-44f2-aa3c-fd7ab993b058" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:79ebd434-7c13-4188-b419-0123d02e13b9}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="12 - Create Record &amp;gt; Customer service Task Record &amp;gt; Solution"&gt;&lt;span class="pill-start"&gt;12 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Solution&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_79ebd434-7c13-4188-b419-0123d02e13b9" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>185ba81b83302210278a5855eeaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>585ba81b83302210278a5855eeaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>185ba81b83302210278a5855eeaad360</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>d05ba81b83302210278a5855eeaad362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a13818bc-7b5c-4908-a4da-58968b786c0f.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=185ba81b83302210278a5855eeaad360"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=185ba81b83302210278a5855eeaad360"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -273,10 +527,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 18:54:13</sys_created_on>
         <sys_id>2238650383b82210278a5855eeaad3d4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>a13818bc-7b5c-4908-a4da-58968b786c0f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2238650383b82210278a5855eeaad3d4"/>
@@ -358,16 +612,16 @@
         <display_text/>
         <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
         <generation_source/>
-        <order>11</order>
+        <order>19</order>
         <parent_ui_id>8f8c7293-e13f-4092-8d0a-9e88b857fd8b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>3315ee4b83bc2210278a5855eeaad39e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
         <ui_id>a12b4258-4734-49a9-a952-baa3a10fb84f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3315ee4b83bc2210278a5855eeaad39e"/>
@@ -423,16 +677,16 @@
         <display_text/>
         <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
         <generation_source/>
-        <order>7</order>
+        <order>9</order>
         <parent_ui_id>254b2e4e-a278-467f-a535-37664864bd4e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>3715ee4b83bc2210278a5855eeaad38c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>d8474aa5-f7c9-4e08-b4f8-11e361875f69</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3715ee4b83bc2210278a5855eeaad38c"/>
@@ -494,10 +748,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 22:59:15</sys_created_on>
         <sys_id>3b40eac383bc2210278a5855eeaad396</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>c2c4530d-acee-4840-aac6-c3029f18b329</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3b40eac383bc2210278a5855eeaad396"/>
@@ -545,6 +799,453 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>17</order>
+        <parent_ui_id>7d3ef250-b124-4479-9d33-8960233dc7c6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>3cd9f85b83702210278a5855eeaad3fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>dd776c6c-1cce-415d-a3e2-e71bae5eaa9d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3cd9f85b83702210278a5855eeaad3fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3cd9f85b83702210278a5855eeaad3fa</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>b0d9f85b83702210278a5855eeaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <value>x_1662477_plumbhub_customer_service_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3cd9f85b83702210278a5855eeaad3fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>3cd9f85b83702210278a5855eeaad3fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>30d9f85b83702210278a5855eeaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_type={{a13818bc-7b5c-4908-a4da-58968b786c0f.type}}^u_string_2={{a13818bc-7b5c-4908-a4da-58968b786c0f.category}}^description={{a13818bc-7b5c-4908-a4da-58968b786c0f.description}}^short_description=Improvement the product.^assignment_group={"display":"Development Department Group","value":"0444061683b42210278a5855eeaad363","sys_id":"0444061683b42210278a5855eeaad363"}^assigned_to={"display":"Linus  Torvalds","value":"dffffd9283b42210278a5855eeaad39b","table":"sys_user","sys_id":"dffffd9283b42210278a5855eeaad39b"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>3cd9f85b83702210278a5855eeaad3fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>7cd9f85b83702210278a5855eeaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3cd9f85b83702210278a5855eeaad3fa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3cd9f85b83702210278a5855eeaad3fa"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>412d8dcb-7b3a-4a95-b3e1-7acc7d992328</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>405ba81b83302210278a5855eeaad337</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
+        <ui_id>a639d81c-000c-43ae-8a52-32a123b2a80f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=405ba81b83302210278a5855eeaad337"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>405ba81b83302210278a5855eeaad337</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>045ba81b83302210278a5855eeaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>405ba81b83302210278a5855eeaad337</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>c45ba81b83302210278a5855eeaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <value>Solution</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=405ba81b83302210278a5855eeaad337"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>405ba81b83302210278a5855eeaad337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>cc5ba81b83302210278a5855eeaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:bf0fa4af-f3f3-4eba-a8bb-1e377b61715e}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:bf0fa4af-f3f3-4eba-a8bb-1e377b61715e}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_bf0fa4af-f3f3-4eba-a8bb-1e377b61715e" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1e46618e-c8fd-4fae-b116-31a8fa07a9dd}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="6 - Create Record &amp;gt; Customer service Task Record &amp;gt; Solution"&gt;&lt;span class="pill-start"&gt;6 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Solution&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1e46618e-c8fd-4fae-b116-31a8fa07a9dd" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>405ba81b83302210278a5855eeaad337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>805ba81b83302210278a5855eeaad339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>405ba81b83302210278a5855eeaad337</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>0c5ba81b83302210278a5855eeaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a13818bc-7b5c-4908-a4da-58968b786c0f.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=405ba81b83302210278a5855eeaad337"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=405ba81b83302210278a5855eeaad337"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>254b2e4e-a278-467f-a535-37664864bd4e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>485ba81b83302210278a5855eeaad345</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>2a81e5b1-9b83-4354-8962-77a378936b2c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=485ba81b83302210278a5855eeaad345"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>485ba81b83302210278a5855eeaad345</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>0c5ba81b83302210278a5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>485ba81b83302210278a5855eeaad345</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>cc5ba81b83302210278a5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <value>Solution</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=485ba81b83302210278a5855eeaad345"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>485ba81b83302210278a5855eeaad345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>c45ba81b83302210278a5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:db0ebc8c-39d3-4e13-b96f-2ce2c27c04f4}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:1e637f8a-fed0-44f2-aa3c-fd7ab993b058}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_1e637f8a-fed0-44f2-aa3c-fd7ab993b058" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:c6a51682-84fd-4e27-b349-f9a0eed6cc06}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="9 - Create Record &amp;gt; Customer service Task Record &amp;gt; Solution"&gt;&lt;span class="pill-start"&gt;9 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Solution&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_19dc32e7-3207-4df1-a29c-9508a79a6d6b" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>485ba81b83302210278a5855eeaad345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>885ba81b83302210278a5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>485ba81b83302210278a5855eeaad345</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:35</sys_created_on>
+        <sys_id>045ba81b83302210278a5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a13818bc-7b5c-4908-a4da-58968b786c0f.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=485ba81b83302210278a5855eeaad345"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=485ba81b83302210278a5855eeaad345"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>22</order>
+        <parent_ui_id>8f8c7293-e13f-4092-8d0a-9e88b857fd8b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>49d93c5b83702210278a5855eeaad30a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>4523b593-5880-4092-8348-792b9532e791</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=49d93c5b83702210278a5855eeaad30a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>49d93c5b83702210278a5855eeaad30a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>cdd93c5b83702210278a5855eeaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <value>x_1662477_plumbhub_customer_service_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=49d93c5b83702210278a5855eeaad30a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>49d93c5b83702210278a5855eeaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>4dd93c5b83702210278a5855eeaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_type={{a13818bc-7b5c-4908-a4da-58968b786c0f.type}}^u_string_2={{a13818bc-7b5c-4908-a4da-58968b786c0f.category}}^description={{a13818bc-7b5c-4908-a4da-58968b786c0f.description}}^short_description=Improvement the product.^assignment_group={"display":"Development Department Group","value":"0444061683b42210278a5855eeaad363","sys_id":"0444061683b42210278a5855eeaad363"}^assigned_to={"display":"Linus  Torvalds","value":"dffffd9283b42210278a5855eeaad39b","table":"sys_user","sys_id":"dffffd9283b42210278a5855eeaad39b"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>49d93c5b83702210278a5855eeaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>89d93c5b83702210278a5855eeaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=49d93c5b83702210278a5855eeaad30a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=49d93c5b83702210278a5855eeaad30a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>254b2e4e-a278-467f-a535-37664864bd4e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>8ffe205f83302210278a5855eeaad39f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>097febd6-e63a-4cc5-8dc9-61066051f28c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8ffe205f83302210278a5855eeaad39f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ffe205f83302210278a5855eeaad39f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>83fe205f83302210278a5855eeaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <value>x_1662477_plumbhub_customer_service_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8ffe205f83302210278a5855eeaad39f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>8ffe205f83302210278a5855eeaad39f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>03fe205f83302210278a5855eeaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_type={{a13818bc-7b5c-4908-a4da-58968b786c0f.type}}^u_string_2={{a13818bc-7b5c-4908-a4da-58968b786c0f.category}}^description={{a13818bc-7b5c-4908-a4da-58968b786c0f.description}}^short_description=Analyzed and evaluated for product improvement.^assignment_group={"display":"Design Department Group","value":"26db7d5e83742210278a5855eeaad317","sys_id":"26db7d5e83742210278a5855eeaad317"}^assigned_to={"display":"Tom  Ford","value":"9f8939da83742210278a5855eeaad362","table":"sys_user","sys_id":"9f8939da83742210278a5855eeaad362"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>8ffe205f83302210278a5855eeaad39f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>4bfe205f83302210278a5855eeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ffe205f83302210278a5855eeaad39f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ffe205f83302210278a5855eeaad39f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>21</order>
+        <parent_ui_id>8f8c7293-e13f-4092-8d0a-9e88b857fd8b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>8ffe205f83302210278a5855eeaad3c3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>a1453069-9a1e-4414-b2c8-8b6546bcabc3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8ffe205f83302210278a5855eeaad3c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ffe205f83302210278a5855eeaad3c3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>07fe205f83302210278a5855eeaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <value>x_1662477_plumbhub_customer_service_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8ffe205f83302210278a5855eeaad3c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>8ffe205f83302210278a5855eeaad3c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>83fe205f83302210278a5855eeaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_type={{a13818bc-7b5c-4908-a4da-58968b786c0f.type}}^u_string_2={{a13818bc-7b5c-4908-a4da-58968b786c0f.category}}^description={{a13818bc-7b5c-4908-a4da-58968b786c0f.description}}^short_description=Analyzed and evaluated for product improvement.^assignment_group={"display":"Design Department Group","value":"26db7d5e83742210278a5855eeaad317","sys_id":"26db7d5e83742210278a5855eeaad317"}^assigned_to={"display":"Tom  Ford","value":"9f8939da83742210278a5855eeaad362","table":"sys_user","sys_id":"9f8939da83742210278a5855eeaad362"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>8ffe205f83302210278a5855eeaad3c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:22:37</sys_created_on>
+        <sys_id>cffe205f83302210278a5855eeaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:22:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8ffe205f83302210278a5855eeaad3c3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8ffe205f83302210278a5855eeaad3c3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
@@ -553,16 +1254,16 @@
         <display_text/>
         <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
         <generation_source/>
-        <order>9</order>
+        <order>14</order>
         <parent_ui_id>7d3ef250-b124-4479-9d33-8960233dc7c6</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>b315ee4b83bc2210278a5855eeaad395</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
         <ui_id>36122201-1406-413f-b4b8-2b899c689970</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b315ee4b83bc2210278a5855eeaad395"/>
@@ -610,6 +1311,163 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>319cbef4-379d-47bb-93c3-642c2ce09b9f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>bb4ba81b83302210278a5855eeaad31a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
+        <ui_id>867c84e7-ea0f-4187-ac4a-b6861a8d5368</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb4ba81b83302210278a5855eeaad31a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb4ba81b83302210278a5855eeaad31a</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>3f4ba81b83302210278a5855eeaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb4ba81b83302210278a5855eeaad31a</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>774ba81b83302210278a5855eeaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <value>Solution</value>
+        <variable display_value="Subject">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb4ba81b83302210278a5855eeaad31a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>bb4ba81b83302210278a5855eeaad31a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>f74ba81b83302210278a5855eeaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Hello&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:08494ed4-6563-4b4b-95eb-788cab4cfe64}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:08494ed4-6563-4b4b-95eb-788cab4cfe64}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="1 - Get Catalog Variables &amp;gt; name"&gt;&lt;span class="pill-start"&gt;1 - Get Catalog Variables&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_08494ed4-6563-4b4b-95eb-788cab4cfe64" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&amp;nbsp;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:ba29aa7e-f836-4156-87f7-7d12c03f2906}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:ba29aa7e-f836-4156-87f7-7d12c03f2906}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="3 - Create Record &amp;gt; Customer service Task Record &amp;gt; Solution"&gt;&lt;span class="pill-start"&gt;3 - Create Record&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;Solution&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_ba29aa7e-f836-4156-87f7-7d12c03f2906" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>bb4ba81b83302210278a5855eeaad31a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>bb4ba81b83302210278a5855eeaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>bb4ba81b83302210278a5855eeaad31a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:34</sys_created_on>
+        <sys_id>ff4ba81b83302210278a5855eeaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{a13818bc-7b5c-4908-a4da-58968b786c0f.email}} </value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bb4ba81b83302210278a5855eeaad31a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb4ba81b83302210278a5855eeaad31a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
+        <generation_source/>
+        <order>12</order>
+        <parent_ui_id>254b2e4e-a278-467f-a535-37664864bd4e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>bcd9f85b83702210278a5855eeaad3e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <ui_id>216b41dc-7c88-4869-b704-6822306093c0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bcd9f85b83702210278a5855eeaad3e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bcd9f85b83702210278a5855eeaad3e9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>30d9f85b83702210278a5855eeaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <value>x_1662477_plumbhub_customer_service_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bcd9f85b83702210278a5855eeaad3e9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>bcd9f85b83702210278a5855eeaad3e9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>bcd9f85b83702210278a5855eeaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>u_type={{a13818bc-7b5c-4908-a4da-58968b786c0f.type}}^u_string_2={{a13818bc-7b5c-4908-a4da-58968b786c0f.category}}^description={{a13818bc-7b5c-4908-a4da-58968b786c0f.description}}^short_description=Improvement the product.^assignment_group={"display":"Development Department Group","value":"0444061683b42210278a5855eeaad363","sys_id":"0444061683b42210278a5855eeaad363"}^assigned_to={"display":"Linus  Torvalds","value":"dffffd9283b42210278a5855eeaad39b","table":"sys_user","sys_id":"dffffd9283b42210278a5855eeaad39b"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>bcd9f85b83702210278a5855eeaad3e9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:09:59</sys_created_on>
+        <sys_id>f4d9f85b83702210278a5855eeaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bcd9f85b83702210278a5855eeaad3e9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bcd9f85b83702210278a5855eeaad3e9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <attributes/>
@@ -618,16 +1476,16 @@
         <display_text/>
         <flow display_value="Customer Service Flow ">52e6ad0b83782210278a5855eeaad32b</flow>
         <generation_source/>
-        <order>5</order>
+        <order>6</order>
         <parent_ui_id>412d8dcb-7b3a-4a95-b3e1-7acc7d992328</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>eb15ee4b83bc2210278a5855eeaad376</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>66417cef-57d3-42d4-b174-034b6076708e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eb15ee4b83bc2210278a5855eeaad376"/>
@@ -690,7 +1548,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>8</order>
+        <order>13</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -698,10 +1556,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>3715ee4b83bc2210278a5855eeaad38e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
         <ui_id>7d3ef250-b124-4479-9d33-8960233dc7c6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -764,7 +1622,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>10</order>
+        <order>18</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -772,10 +1630,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>b315ee4b83bc2210278a5855eeaad397</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:59</sys_updated_on>
         <ui_id>8f8c7293-e13f-4092-8d0a-9e88b857fd8b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -838,7 +1696,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>4</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -846,10 +1704,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>ef15ee4b83bc2210278a5855eeaad36d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>412d8dcb-7b3a-4a95-b3e1-7acc7d992328</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -920,10 +1778,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 22:59:15</sys_created_on>
         <sys_id>f340eac383bc2210278a5855eeaad38d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>319cbef4-379d-47bb-93c3-642c2ce09b9f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -986,7 +1844,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>6</order>
+        <order>8</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -994,10 +1852,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-04-13 23:20:16</sys_created_on>
         <sys_id>ff15ee4b83bc2210278a5855eeaad378</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-04-13 23:20:16</sys_updated_on>
+        <sys_updated_on>2025-04-14 10:09:58</sys_updated_on>
         <ui_id>254b2e4e-a278-467f-a535-37664864bd4e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1044,7 +1902,245 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ff15ee4b83bc2210278a5855eeaad378"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ff15ee4b83bc2210278a5855eeaad378"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=52e6ad0b83782210278a5855eeaad32b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=52e6ad0b83782210278a5855eeaad32b^sys_idNOT IN205ba81b83302210278a5855eeaad375,245ba81b83302210278a5855eeaad374,285ba81b83302210278a5855eeaad376,2c5ba81b83302210278a5855eeaad373,2c5ba81b83302210278a5855eeaad375,645ba81b83302210278a5855eeaad376,685ba81b83302210278a5855eeaad375,6c5ba81b83302210278a5855eeaad374,a05ba81b83302210278a5855eeaad376,a45ba81b83302210278a5855eeaad375,a85ba81b83302210278a5855eeaad374,e05ba81b83302210278a5855eeaad375,e45ba81b83302210278a5855eeaad374,ec5ba81b83302210278a5855eeaad375"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{a13818bc-7b5c-4908-a4da-58968b786c0f.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>205ba81b83302210278a5855eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1e637f8a-fed0-44f2-aa3c-fd7ab993b058</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c2c4530d-acee-4840-aac6-c3029f18b329.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>245ba81b83302210278a5855eeaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>ba29aa7e-f836-4156-87f7-7d12c03f2906</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{a12b4258-4734-49a9-a952-baa3a10fb84f.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>285ba81b83302210278a5855eeaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>06576354-1ae6-4bc9-8c0b-1197b17237ff</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{a13818bc-7b5c-4908-a4da-58968b786c0f.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>2c5ba81b83302210278a5855eeaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>08494ed4-6563-4b4b-95eb-788cab4cfe64</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{d8474aa5-f7c9-4e08-b4f8-11e361875f69.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>2c5ba81b83302210278a5855eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c6a51682-84fd-4e27-b349-f9a0eed6cc06</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{36122201-1406-413f-b4b8-2b899c689970.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>645ba81b83302210278a5855eeaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b8bff0be-95b5-443f-9b10-ee780cd987db</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{a13818bc-7b5c-4908-a4da-58968b786c0f.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>685ba81b83302210278a5855eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>db0ebc8c-39d3-4e13-b96f-2ce2c27c04f4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{66417cef-57d3-42d4-b174-034b6076708e.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>6c5ba81b83302210278a5855eeaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1e46618e-c8fd-4fae-b116-31a8fa07a9dd</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{a13818bc-7b5c-4908-a4da-58968b786c0f.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>a05ba81b83302210278a5855eeaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>85327729-adbc-4a31-b299-5fabaab5dbf0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{d8474aa5-f7c9-4e08-b4f8-11e361875f69.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>a45ba81b83302210278a5855eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>19dc32e7-3207-4df1-a29c-9508a79a6d6b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{c2c4530d-acee-4840-aac6-c3029f18b329.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>a85ba81b83302210278a5855eeaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>4b49fc37-158c-445e-879a-c661b2bff8ca</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{66417cef-57d3-42d4-b174-034b6076708e.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>e05ba81b83302210278a5855eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>804cdc20-9407-4c1f-994d-320b60b004ba</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{a13818bc-7b5c-4908-a4da-58968b786c0f.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>e45ba81b83302210278a5855eeaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>bf0fa4af-f3f3-4eba-a8bb-1e377b61715e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>52e6ad0b83782210278a5855eeaad32b</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{36122201-1406-413f-b4b8-2b899c689970.record.u_solution}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 09:06:36</sys_created_on>
+        <sys_id>ec5ba81b83302210278a5855eeaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 09:06:36</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>79ebd434-7c13-4188-b419-0123d02e13b9</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=52e6ad0b83782210278a5855eeaad32b"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_52e6ad0b83782210278a5855eeaad32b^sys_idNOT IN5638650383b82210278a5855eeaad3c5,9a38650383b82210278a5855eeaad3ca"/>
     <sys_documentation action="INSERT_OR_UPDATE">

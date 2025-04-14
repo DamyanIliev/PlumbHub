@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_1662477_plumbhub_task</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>Hello,</p>
+<p>Your task is not updated for the last 48 hours. Please check ${number}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>TaskNotUpdated</name>
+        <sms_alternate/>
+        <subject>Please check this task.</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:21:31</sys_created_on>
+        <sys_id>df6b3cdb83702210278a5855eeaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskNotUpdated</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>sysevent_email_template_df6b3cdb83702210278a5855eeaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:21:31</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</application>
+        <file_path/>
+        <instance_id>ac5a932edb56bd144162684e13961919</instance_id>
+        <instance_name>dev207292</instance_name>
+        <name>sysevent_email_template_df6b3cdb83702210278a5855eeaad31b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;x_1662477_plumbhub_task&lt;/collection&gt;&lt;email_layout/&gt;&lt;message/&gt;&lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;Your task is not updated for the last 48 hours. Please check ${number}&lt;/p&gt;]]&gt;&lt;/message_html&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;TaskNotUpdated&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Please check this task.&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-14 10:21:31&lt;/sys_created_on&gt;&lt;sys_id&gt;df6b3cdb83702210278a5855eeaad31b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;TaskNotUpdated&lt;/sys_name&gt;&lt;sys_package display_value="PlumbHub" source="x_1662477_plumbhub"&gt;207bb88a83b42210278a5855eeaad3e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="PlumbHub"&gt;207bb88a83b42210278a5855eeaad3e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_df6b3cdb83702210278a5855eeaad31b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-14 10:21:31&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>830393725</payload_hash>
+        <record_name>TaskNotUpdated</record_name>
+        <reverted_from/>
+        <source>84a7a24f83bc2210278a5855eeaad390</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:21:31</sys_created_on>
+        <sys_id>4e7c38db83702210278a5855eeaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19633d1874b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:21:31</sys_updated_on>
+        <type>Email Template</type>
+        <update_guid>717c38db9170221037579c7cb046d2af</update_guid>
+        <update_guid_history>717c38db9170221037579c7cb046d2af:830393725</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-14 10:27:36</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>1f3ea0442ca145e28b07556acbb23069</sys_id>
+        <sys_metadata>df6b3cdb83702210278a5855eeaad31b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskNotUpdated</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_parent display_value="Task">b7233a5283b82210278a5855eeaad323</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_scope_delete display_value="">484493a0ed434d3cb009eaea73d11f24</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_df6b3cdb83702210278a5855eeaad31b</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_df6b3cdb83702210278a5855eeaad31b">4e7c38db83702210278a5855eeaad3af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-14 10:27:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
