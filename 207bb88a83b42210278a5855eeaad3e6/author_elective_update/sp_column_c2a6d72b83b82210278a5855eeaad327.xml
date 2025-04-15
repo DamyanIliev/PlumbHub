@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">06a6132b83b82210278a5855eeaad325</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 16:13:39</sys_created_on>
+        <sys_id>c2a6d72b83b82210278a5855eeaad327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_update_name>sp_column_c2a6d72b83b82210278a5855eeaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 16:13:39</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</application>
+        <file_path/>
+        <instance_id>ac5a932edb56bd144162684e13961919</instance_id>
+        <instance_name>dev207292</instance_name>
+        <name>sp_column_c2a6d72b83b82210278a5855eeaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">06a6132b83b82210278a5855eeaad325</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-15 16:13:39</sys_created_on><sys_id>c2a6d72b83b82210278a5855eeaad327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package><sys_policy/><sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope><sys_update_name>sp_column_c2a6d72b83b82210278a5855eeaad327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-15 16:13:39</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1354371585</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>84a7a24f83bc2210278a5855eeaad390</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 16:13:39</sys_created_on>
+        <sys_id>8aa6d72b83b82210278a5855eeaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1963a3a456d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 16:13:39</sys_updated_on>
+        <type>Column</type>
+        <update_guid>8ea6d72be2b8221051ca0bb274946728</update_guid>
+        <update_guid_history>8ea6d72be2b8221051ca0bb274946728:-1354371585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">51a71b6b83b82210278a5855eeaad39a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 16:17:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>7d54d3a7d6ba4cc88039a9cbddf9dc40</sys_id>
+        <sys_metadata>c2a6d72b83b82210278a5855eeaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_scope_delete display_value="">484493a0ed434d3cb009eaea73d11f24</sys_scope_delete>
+        <sys_update_name>sp_column_c2a6d72b83b82210278a5855eeaad327</sys_update_name>
+        <sys_update_version display_value="sp_column_c2a6d72b83b82210278a5855eeaad327">8aa6d72b83b82210278a5855eeaad329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 16:17:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

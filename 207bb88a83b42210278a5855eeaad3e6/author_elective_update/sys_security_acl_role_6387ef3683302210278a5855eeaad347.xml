@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 09:32:03</sys_created_on>
+        <sys_id>6387ef3683302210278a5855eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1662477_plumbhub_orders.x_1662477_plumbhub.orders_user</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_security_acl display_value="x_1662477_plumbhub_orders">ef87ef3683302210278a5855eeaad343</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6387ef3683302210278a5855eeaad347</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 09:32:03</sys_updated_on>
+        <sys_user_role display_value="x_1662477_plumbhub.orders_user" name="x_1662477_plumbhub.orders_user">5787ab3283302210278a5855eeaad387</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</application>
+        <file_path/>
+        <instance_id>ac5a932edb56bd144162684e13961919</instance_id>
+        <instance_name>dev207292</instance_name>
+        <name>sys_security_acl_role_6387ef3683302210278a5855eeaad347</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-13 09:32:03</sys_created_on><sys_id>6387ef3683302210278a5855eeaad347</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1662477_plumbhub_orders.x_1662477_plumbhub.orders_user</sys_name><sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package><sys_policy/><sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope><sys_security_acl display_value="x_1662477_plumbhub_orders">ef87ef3683302210278a5855eeaad343</sys_security_acl><sys_update_name>sys_security_acl_role_6387ef3683302210278a5855eeaad347</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-13 09:32:03</sys_updated_on><sys_user_role display_value="x_1662477_plumbhub.orders_user" name="x_1662477_plumbhub.orders_user">5787ab3283302210278a5855eeaad387</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>61637355</payload_hash>
+        <record_name>x_1662477_plumbhub_orders.x_1662477_plumbhub.orders_user</record_name>
+        <reverted_from/>
+        <source>d9c955ba83fc2210278a5855eeaad310</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-13 09:32:03</sys_created_on>
+        <sys_id>6f87ef3683302210278a5855eeaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1962e7de1ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-13 09:32:03</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>6387ef362130221061d905e927370249</update_guid>
+        <update_guid_history>6387ef362130221061d905e927370249:61637355</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1662477_plumbhub_orders.x_1662477_plumbhub.orders_user">71070fa383782210278a5855eeaad3a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-15 15:05:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>30d272ee55824ec89256a0daac981f90</sys_id>
+        <sys_metadata>6387ef3683302210278a5855eeaad347</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1662477_plumbhub_orders.x_1662477_plumbhub.orders_user</sys_name>
+        <sys_package display_value="PlumbHub" source="x_1662477_plumbhub">207bb88a83b42210278a5855eeaad3e6</sys_package>
+        <sys_parent display_value="x_1662477_plumbhub_orders">ef87ef3683302210278a5855eeaad343</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PlumbHub">207bb88a83b42210278a5855eeaad3e6</sys_scope>
+        <sys_scope_delete display_value="">484493a0ed434d3cb009eaea73d11f24</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6387ef3683302210278a5855eeaad347</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6387ef3683302210278a5855eeaad347">6f87ef3683302210278a5855eeaad349</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-15 15:05:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
